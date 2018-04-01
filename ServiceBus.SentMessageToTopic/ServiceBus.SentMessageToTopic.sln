@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27428.2011
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBus.SentMessageToTopic", "ServiceBus.SentMessageToTopic\ServiceBus.SentMessageToTopic.csproj", "{DFC2DD78-A497-4600-AC77-089A1E383BED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServuceBus.ReceiveMessageFromTopic", "ServuceBus.ReceiveMessageFromTopic\ServuceBus.ReceiveMessageFromTopic.csproj", "{1A833257-DB8B-4D5D-B1B3-F219AA192688}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DFC2DD78-A497-4600-AC77-089A1E383BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFC2DD78-A497-4600-AC77-089A1E383BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFC2DD78-A497-4600-AC77-089A1E383BED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A833257-DB8B-4D5D-B1B3-F219AA192688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A833257-DB8B-4D5D-B1B3-F219AA192688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A833257-DB8B-4D5D-B1B3-F219AA192688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A833257-DB8B-4D5D-B1B3-F219AA192688}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
